@@ -1,0 +1,75 @@
+.footer{
+	height: 300px;
+	background: #5f6975;
+	width: 100%;
+	color: white;
+	position: relative;
+	bottom: 0px;
+	
+	.row{
+		display: inline-block;
+		width: 33%;
+		float: left;
+	}
+
+	.col1{
+		ul{
+			padding-top: 20px;
+			text-align: left;
+			list-style: none;
+
+			li{
+				height: 80px;
+
+				i{
+					height: 70px;
+					width: 70px;
+					color: #B2282A;	
+				}
+
+				.fa-mobile{
+						position: relative;
+						top: 10px;
+				}
+
+				.fa-envelope{
+						position: relative;
+						top: 10px;
+				}
+
+				p{
+					display: inline-block;
+					color: black;
+				}
+			}
+		}
+	}
+
+	.col2{
+		padding-top: 40px;
+
+		.your_logo{
+			width: 200px;
+		}
+
+	}
+
+	.col3{
+		padding-top: 145px;
+		
+		p{
+			color: black;
+		}
+		a{
+			text-decoration: none;
+
+			i{
+				color: #B2282A;
+				margin: 10px;
+			}
+
+		}
+		
+
+	}
+}

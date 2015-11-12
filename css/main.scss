@@ -1,0 +1,30 @@
+@import 'nav';
+@import 'form';
+@import 'footer';
+
+body{
+	margin: 0;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #5f6975;
+	font-family: 'Quicksand';
+
+	.logo{
+		position: absolute;
+		left: 100px;
+	}
+
+	h1{
+		display: inline-block;
+
+	}
+
+	.content{
+		background-color: #B2282A;
+	}
+
+}
+
+
+
+

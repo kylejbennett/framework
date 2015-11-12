@@ -1,0 +1,145 @@
+.cool_nav {
+  margin-top: 20px;
+  background-color: #B2282A;
+  text-align: center;
+  width: 100%; }
+  .cool_nav ul:after {
+    content: "";
+    clear: both;
+    display: block; }
+  .cool_nav .cat {
+    margin: 0;
+    background: #5C90B3;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%; }
+    .cool_nav .cat li:hover > ul {
+      display: block; }
+    .cool_nav .cat li:hover {
+      background: #5f6975; }
+      .cool_nav .cat li:hover a {
+        color: white; }
+    .cool_nav .cat li {
+      float: left;
+      list-style: none;
+      width: 25%; }
+      .cool_nav .cat li a {
+        display: block;
+        padding: 25px 40px;
+        color: black;
+        text-decoration: none; }
+    .cool_nav .cat .subcat {
+      background: #5C90B3;
+      opacity: 0.9;
+      padding: 0;
+      position: absolute;
+      top: 100%;
+      display: none;
+      width: 24%; }
+      .cool_nav .cat .subcat li {
+        float: none;
+        position: relative;
+        width: 100%; }
+        .cool_nav .cat .subcat li a {
+          padding: 15px 40px;
+          color: #EAECED; }
+        .cool_nav .cat .subcat li a:hover {
+          background: #4b545f;
+          color: #C7C6DF; }
+
+.signup {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+  .signup .cool_form {
+    background: #EAECED;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: center; }
+    .signup .cool_form .text {
+      margin: 10px;
+      width: 40%;
+      height: 35px;
+      border-radius: 5px;
+      font-family: 'Quicksand';
+      font-size: 16pt;
+      text-align: center; }
+    .signup .cool_form .radio {
+      display: inline-block;
+      margin-left: 50px; }
+      .signup .cool_form .radio p {
+        display: inline-block;
+        margin-left: 10px; }
+    .signup .cool_form .submit {
+      font-family: 'Quicksand'; }
+    .signup .cool_form button {
+      height: 30px;
+      width: 100px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 12pt;
+      background: white; }
+    .signup .cool_form button:hover {
+      background: darkgray; }
+
+.footer {
+  height: 300px;
+  background: #5f6975;
+  width: 100%;
+  color: white;
+  position: relative;
+  bottom: 0px; }
+  .footer .row {
+    display: inline-block;
+    width: 33%;
+    float: left; }
+  .footer .col1 ul {
+    padding-top: 20px;
+    text-align: left;
+    list-style: none; }
+    .footer .col1 ul li {
+      height: 80px; }
+      .footer .col1 ul li i {
+        height: 70px;
+        width: 70px;
+        color: #B2282A; }
+      .footer .col1 ul li .fa-mobile {
+        position: relative;
+        top: 10px; }
+      .footer .col1 ul li .fa-envelope {
+        position: relative;
+        top: 10px; }
+      .footer .col1 ul li p {
+        display: inline-block;
+        color: black; }
+  .footer .col2 {
+    padding-top: 40px; }
+    .footer .col2 .your_logo {
+      width: 200px; }
+  .footer .col3 {
+    padding-top: 145px; }
+    .footer .col3 p {
+      color: black; }
+    .footer .col3 a {
+      text-decoration: none; }
+      .footer .col3 a i {
+        color: #B2282A;
+        margin: 10px; }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #5f6975;
+  font-family: 'Quicksand'; }
+  body .logo {
+    position: absolute;
+    left: 100px; }
+  body h1 {
+    display: inline-block; }
+  body .content {
+    background-color: #B2282A; }
+
+/*# sourceMappingURL=main.css.map */

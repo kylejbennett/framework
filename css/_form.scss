@@ -1,0 +1,46 @@
+
+.signup{
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+
+	.cool_form{
+		background: #EAECED;
+		border-radius: 10px;
+		padding: 50px;
+		text-align: center;
+
+		.text{
+			margin: 10px;
+			width: 40%;
+			height: 35px;
+			border-radius: 5px;
+			font-family: 'Quicksand';
+			font-size: 16pt;
+			text-align: center;
+		}
+		.radio{
+			display: inline-block;
+			margin-left: 50px;
+			p{
+				display: inline-block;
+				margin-left: 10px;
+			}
+		}
+		.submit{
+			font-family: 'Quicksand';
+		}
+		button{
+			height: 30px;
+			width: 100px;
+			border-radius: 5px;
+		    font-weight: bold;
+		    font-size: 12pt;
+		    background: white;
+		}
+		button:hover{
+			background: darkgray;
+		}
+		
+	}
+}
